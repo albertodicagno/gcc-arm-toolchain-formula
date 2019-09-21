@@ -6,7 +6,7 @@ class ArmNoneEabiGcc < Formula
   version '8-2018-q4-major'
 
   url 'https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2019q3/gcc-arm-none-eabi-8-2019-q3-update-mac.tar.bz2'
-  sha256 'fc235ce853bf3bceba46eff4b95764c5935ca07fc4998762ef5e5b7d05f37085'
+  sha256 '051522673bd965738e87d12ac34d8852591dc3116018dfdb36ba7135dc85877e'
 
   def install
     (prefix/"gcc").install Dir["./*"]
